@@ -39,33 +39,38 @@ export default class Notifications extends React.Component {
           <DropdownItem>
             <div className="notification__icon-wrapper">
               <div className="notification__icon">
+                <i className="material-icons">&#xE8D1;</i>
+              </div>
+            </div>
+            <div className="notification__content">
+              <span className="notification__category">Recruitment</span>
+              <p>
+                <span className="text-success text-semibold">Henry Neo </span>
+                has just signed up for
+                <span className="text-success text-semibold">
+                  : Voice Recording Project for local Chinese: 400 short
+                  sentences
+                </span>
+              </p>
+            </div>
+          </DropdownItem>
+
+          <DropdownItem>
+            <div className="notification__icon-wrapper">
+              <div className="notification__icon">
                 <i className="material-icons">&#xE6E1;</i>
               </div>
             </div>
             <div className="notification__content">
               <span className="notification__category">Analytics</span>
               <p>
-                Your website’s active users count increased by{" "}
-                <span className="text-success text-semibold">28%</span> in the
-                last week. Great job!
+                Number of participants increased by
+                <span className="text-success text-semibold"> 28%</span> in the
+                last week.
               </p>
             </div>
           </DropdownItem>
-          <DropdownItem>
-            <div className="notification__icon-wrapper">
-              <div className="notification__icon">
-                <i className="material-icons">&#xE8D1;</i>
-              </div>
-            </div>
-            <div className="notification__content">
-              <span className="notification__category">Sales</span>
-              <p>
-                Last week your store’s sales count decreased by{" "}
-                <span className="text-danger text-semibold">5.52%</span>. It
-                could have been worse!
-              </p>
-            </div>
-          </DropdownItem>
+
           <DropdownItem className="notification__all text-center">
             View all Notifications
           </DropdownItem>

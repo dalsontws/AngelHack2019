@@ -84,26 +84,6 @@ TopReferrals.defaultProps = {
     {
       title: "Hacker News",
       value: "9,291"
-    },
-    {
-      title: "Reddit",
-      value: "8,281"
-    },
-    {
-      title: "The Next Web",
-      value: "7,128"
-    },
-    {
-      title: "Tech Crunch",
-      value: "6,218"
-    },
-    {
-      title: "YouTube",
-      value: "1,218"
-    },
-    {
-      title: "Adobe",
-      value: "1,171"
     }
   ]
 };

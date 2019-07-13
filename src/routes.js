@@ -19,7 +19,6 @@ export default [
     exact: true,
     layout: DefaultLayout,
     component: () => <Redirect to="/tables" />
-
   },
   {
     path: "/blog-overview",

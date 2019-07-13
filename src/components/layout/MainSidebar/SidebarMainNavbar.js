@@ -18,7 +18,7 @@ class SidebarMainNavbar extends React.Component {
   }
 
   render() {
-    const { hideLogoText } = this.props;
+    // const { hideLogoText } = this.props;
     return (
       <div className="main-navbar">
         <Navbar
@@ -34,14 +34,16 @@ class SidebarMainNavbar extends React.Component {
               <img
                 id="main-logo"
                 className="d-inline-block align-top mr-1"
-                style={{ maxWidth: "25px" }}
+                style={{ maxWidth: "25000px" }}
                 // add logo
-                src={require("../../../images/shards-dashboards-logo.svg")}
+                src={require("../../../images/logo.jpg")}
+                width="150"
+                height="44"
                 alt="WeSearch"
               />
-              {!hideLogoText && (
+              {/* {!hideLogoText && (
                 <span className="d-none d-md-inline ml-1">WeSearch</span>
-              )}
+              )} */}
             </div>
           </NavbarBrand>
           {/* eslint-disable-next-line */}

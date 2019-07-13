@@ -19,13 +19,11 @@ const AddNewPost = () => (
     </Row>
 
     <Row>
-      {/* Editor */}
-      <Col lg="9" md="12">
+      <Col lg="7" md="12">
         <Editor />
       </Col>
 
-      {/* Sidebar Widgets */}
-      <Col lg="3" md="12">
+      <Col lg="5" md="12">
         <SidebarActions />
         <SidebarCategories />
       </Col>

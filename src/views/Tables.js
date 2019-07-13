@@ -7,12 +7,7 @@ const Tables = () => (
   <Container fluid className="main-content-container px-4">
     {/* Page Header */}
     <Row noGutters className="page-header py-4">
-      <PageTitle
-        sm="4"
-        title="Research Overview"
-        subtitle="blank"
-        className="text-sm-left"
-      />
+      <PageTitle sm="4" title="Research Overview" className="text-sm-left" />
     </Row>
 
     {/* Default Light Table */}
@@ -49,11 +44,11 @@ const Tables = () => (
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>7 July 2019</td>
-                  <td>11 August 2019</td>
+                  <td>6 Jul 2019</td>
+                  <td>30 Jul 2020</td>
                   <td>
-                    Metabolic Availability of Methionine From Mung Beans in
-                    Healthy Young Adult Men
+                    Voice Recording Project for local Chinese: 400 short
+                    sentences
                   </td>
                   <td>35</td>
 
@@ -65,13 +60,9 @@ const Tables = () => (
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>11 June 2019</td>
-                  <td>11 August 2019</td>
-                  <td>
-                    A Study to Investigate the Efficacy of Pain Bloc-R in
-                    Healthy Participants With Non-pathological Aches and
-                    Discomfort
-                  </td>
+                  <td>11 Jun 2019</td>
+                  <td>11 Aug 2019</td>
+                  <td>Tourism research and audio methods</td>
                   <td>40</td>
                   <td>
                     <span className="text-success text-semibold">
@@ -81,9 +72,12 @@ const Tables = () => (
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>2 January 2019</td>
-                  <td>1 December 2019</td>
-                  <td>Living Green and Healthy for Teens</td>
+                  <td>2 Jan 2019</td>
+                  <td>1 Aug 2019</td>
+                  <td>
+                    Reformed consent: adapting to new media and research
+                    participant preferences
+                  </td>
                   <td>60</td>
                   <td>
                     <span className="text-success text-semibold">
@@ -93,10 +87,11 @@ const Tables = () => (
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>4 June 2019</td>
-                  <td>9 September 2019</td>
+                  <td>4 Jun 2018</td>
+                  <td>9 Mar 2020</td>
                   <td>
-                    Safety Evaluation of β-arbutin in Healthy Human Subjects
+                    Clipping and Coding Audio Files: A Research Method to Enable
+                    Participant Voice
                   </td>
                   <td>55</td>
                   <td>
@@ -146,11 +141,10 @@ const Tables = () => (
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>11 June 2018</td>
-                  <td>11 August 2018</td>
+                  <td>11 Jun 2017</td>
+                  <td>11 Feb 2019</td>
                   <td>
-                    Intranasal Insulin and Olanzapine Study in Healthy
-                    Volunteers
+                    Falling on deaf ears: Tourism research and audio methods
                   </td>
                   <td>100</td>
                   <td>
@@ -161,9 +155,12 @@ const Tables = () => (
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>11 June 2018</td>
-                  <td>11 August 2018</td>
-                  <td>Family Healthy Living Early Intervention Program</td>
+                  <td>11 Jun 2018</td>
+                  <td>11 Jan 2019</td>
+                  <td>
+                    A Survey of MPEG-1 Audio, Video and Semantic Analysis
+                    Techniques
+                  </td>
                   <td>100</td>
                   <td>
                     <span className="text-danger text-semibold">
@@ -173,9 +170,12 @@ const Tables = () => (
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>11 June 2018</td>
-                  <td>11 August 2018</td>
-                  <td>Children and Teens in Charge of Their Health</td>
+                  <td>11 Jun 2018</td>
+                  <td>20 Jul 2018</td>
+                  <td>
+                    Abstract Sounds and Their Applications in Audio and
+                    Perception Research
+                  </td>
                   <td>100</td>
                   <td>
                     <span className="text-success text-semibold">
@@ -185,8 +185,8 @@ const Tables = () => (
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>11 June 2018</td>
-                  <td>11 August 2018</td>
+                  <td>11 Jun 2018</td>
+                  <td>11 Aug 2018</td>
                   <td>
                     Dental Plaque Removal Ability of Prototype Power Toothbrush
                     Versus a Manual Toothbrush in Healthy Participants

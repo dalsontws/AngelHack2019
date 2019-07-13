@@ -57,12 +57,6 @@ const Discussions = ({ title, discussions }) => (
                   </span>{" "}
                   Reject
                 </Button>
-                <Button theme="white">
-                  <span className="text-light">
-                    <i className="material-icons">more_vert</i>
-                  </span>{" "}
-                  Edit
-                </Button>
               </ButtonGroup>
             </div>
           </div>
@@ -94,7 +88,7 @@ Discussions.propTypes = {
 };
 
 Discussions.defaultProps = {
-  title: "Reviews",
+  title: "Queries",
   discussions: [
     {
       id: 1,
@@ -109,14 +103,14 @@ Discussions.defaultProps = {
         url: "#"
       },
       body:
-        "Great experience with the researcher, informative and worth my time. Will recommend.."
+        "Thanks for the great experience! I am wondering when is the next study? My friends..."
     },
     {
       id: 2,
       date: "4 days ago",
       author: {
         image: require("../../images/avatars/2.jpg"),
-        name: "Ng Hao Yuan",
+        name: "Dalson Tan",
         url: "#"
       },
       post: {
@@ -124,7 +118,7 @@ Discussions.defaultProps = {
         url: "#"
       },
       body:
-        "Research Assistant was very responsive during the application process. But more can..."
+        "Hello! I would like to ask if I can change my appointment? I am so sorry I have..."
     },
     {
       id: 3,
@@ -139,7 +133,7 @@ Discussions.defaultProps = {
         url: "#"
       },
       body:
-        "Located near to the medicine faculty, RAs were very nice. Must join!"
+        "Can I check on the referral program? If I refer my friends how much will I get? I will refer my.."
     }
   ]
 };

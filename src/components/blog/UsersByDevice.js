@@ -106,20 +106,24 @@ UsersByDevice.propTypes = {
 };
 
 UsersByDevice.defaultProps = {
-  title: "Users by device",
+  title: "Active research status",
   chartData: {
     datasets: [
       {
         hoverBorderColor: "#ffffff",
         data: [68.3, 24.2, 7.5],
         backgroundColor: [
-          "rgba(0,123,255,0.9)",
+          "rgb(49,70,95)",
           "rgba(0,123,255,0.5)",
           "rgba(0,123,255,0.3)"
         ]
       }
     ],
-    labels: ["Mobile App", "Desktop", "Walk-in"]
+    labels: [
+      "Recruiting Participants",
+      "Met Participant Criteria",
+      "No Participants"
+    ]
   }
 };
 

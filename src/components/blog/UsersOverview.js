@@ -138,7 +138,7 @@ UsersOverview.defaultProps = {
     labels: Array.from(new Array(30), (_, i) => (i === 0 ? 1 : i)),
     datasets: [
       {
-        label: "Current Year",
+        label: "Active Participants",
         fill: "start",
         data: [
           500,
@@ -181,7 +181,7 @@ UsersOverview.defaultProps = {
         pointHoverRadius: 3
       },
       {
-        label: "Last Year",
+        label: "No Show Partipants",
         fill: "start",
         data: [
           380,

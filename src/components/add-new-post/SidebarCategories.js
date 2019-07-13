@@ -10,8 +10,13 @@ import {
   InputGroup,
   InputGroupAddon,
   FormCheckbox,
-  FormInput
+  FormInput,
+  Row,
+  Col
 } from "shards-react";
+
+import Sliders from "./../../components/components-overview/Sliders.js";
+import SlidersPart from "./../../components/components-overview/SlidersParticipant.js";
 
 const SidebarCategories = ({ title }) => (
   <Card small className="mb-3">
@@ -25,16 +30,22 @@ const SidebarCategories = ({ title }) => (
             Uncategorized
           </FormCheckbox>
           <FormCheckbox className="mb-1" value="clinical" defaultChecked>
-            Clinical
+            Clinical Research
           </FormCheckbox>
           <FormCheckbox className="mb-1" value="development">
-            Market
+            Market Research
           </FormCheckbox>
           <FormCheckbox className="mb-1" value="more">
-            MoreCategories
+            Surveys
           </FormCheckbox>
           <FormCheckbox className="mb-1" value="more">
-            MoreCategories
+            Male
+          </FormCheckbox>
+          <FormCheckbox className="mb-1" value="more">
+            Female
+          </FormCheckbox>
+          <FormCheckbox className="mb-1" value="more">
+            21 and Above
           </FormCheckbox>
         </ListGroupItem>
 
@@ -49,19 +60,28 @@ const SidebarCategories = ({ title }) => (
           </InputGroup>
         </ListGroupItem>
       </ListGroup>
+
+      <Row>
+        <Col lg="12" md="12" sm="12" className="mb-4">
+          <Sliders />
+        </Col>
+
+        <Col lg="12" md="12" sm="12" className="mb-4">
+          <SlidersPart />
+        </Col>
+      </Row>
+
+      <Row></Row>
     </CardBody>
   </Card>
 );
 
 SidebarCategories.propTypes = {
-  /**
-   * The component's title.
-   */
   title: PropTypes.string
 };
 
 SidebarCategories.defaultProps = {
-  title: "Categories"
+  title: "Categories & Requirements"
 };
 
 export default SidebarCategories;
