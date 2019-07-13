@@ -38,7 +38,7 @@ UserDetails.defaultProps = {
     performanceReportTitle: "Workload",
     metaTitle: "Description",
     metaValue:
-      "Dr Ng graduated from the Massachusetts Institute of Technology in 2010, heavily involded in the Harvard–MIT Division of Health Sciences and Technology. His thesis was on: Impact of human vocal fold vibratory asymmetries on acoustic characteristics of sustained vowel phonation"
+      "Dr Ng graduated from the Massachusetts Institute of Technology in 2010, heavily involved in the Harvard–MIT Division of Health Sciences and Technology. His thesis was on: Impact of human vocal fold vibratory asymmetries on acoustic characteristics of sustained vowel phonation"
   }
 };
 
