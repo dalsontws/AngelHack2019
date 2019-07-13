@@ -94,7 +94,7 @@ Discussions.defaultProps = {
       id: 1,
       date: "3 days ago",
       author: {
-        image: require("../../images/avatars/1.jpg"),
+        image: "https://wesearchbucket.s3-ap-southeast-1.amazonaws.com/1.jpg",
         name: "Jocelyn Tan",
         url: "#"
       },
@@ -109,7 +109,7 @@ Discussions.defaultProps = {
       id: 2,
       date: "4 days ago",
       author: {
-        image: require("../../images/avatars/2.jpg"),
+        image: "https://wesearchbucket.s3-ap-southeast-1.amazonaws.com/2.jpg",
         name: "Dalson Tan",
         url: "#"
       },
@@ -124,7 +124,7 @@ Discussions.defaultProps = {
       id: 3,
       date: "5 days ago",
       author: {
-        image: require("../../images/avatars/3.jpg"),
+        image: "https://wesearchbucket.s3-ap-southeast-1.amazonaws.com/3.jpg",
         name: "Teo Jin Ming",
         url: "#"
       },

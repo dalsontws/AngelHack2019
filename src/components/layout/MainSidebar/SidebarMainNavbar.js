@@ -35,15 +35,11 @@ class SidebarMainNavbar extends React.Component {
                 id="main-logo"
                 className="d-inline-block align-top mr-1"
                 style={{ maxWidth: "25000px" }}
-                // add logo
-                src={require("../../../images/logo.jpg")}
+                src="https://wesearchbucket.s3-ap-southeast-1.amazonaws.com/logo.jpg"
                 width="150"
                 height="44"
                 alt="WeSearch"
               />
-              {/* {!hideLogoText && (
-                <span className="d-none d-md-inline ml-1">WeSearch</span>
-              )} */}
             </div>
           </NavbarBrand>
           {/* eslint-disable-next-line */}

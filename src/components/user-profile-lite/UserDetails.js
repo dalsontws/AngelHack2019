@@ -32,7 +32,7 @@ UserDetails.propTypes = {
 UserDetails.defaultProps = {
   userDetails: {
     name: "Dr. (Ph.D) Ng Hao Yuan",
-    avatar: require("./../../images/avatars/0.jpg"),
+    avatar: "https://wesearchbucket.s3-ap-southeast-1.amazonaws.com/0.jpg",
     jobTitle:
       "Ph.D. , Speech and Hearing Bioscience and Technology (Philosophy)",
     performanceReportTitle: "Workload",
