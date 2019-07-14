@@ -48,8 +48,8 @@
         },
         "AccessControl": "Private",
         "WebsiteConfiguration": {
-          "IndexDocument": "",
-          "ErrorDocument": ""
+          "IndexDocument": "index.html",
+          "ErrorDocument": "index.html"
         },
         "CorsConfiguration": {
           "CorsRules": [
