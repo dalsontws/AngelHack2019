@@ -1,7 +1,7 @@
 # AngelHack AWS Hackathon
 
 ## Powered by:
-### AWS Amplify (Analytics), S3
+### AWS Amplify, Pinpoint (Analytics), S3
 
 ## WeSearch
 ### We aim to digitalize Contract Research by offering a multi-sided platform in China. Through our mobile app, research organizations can publish their (paid) research studies like food-tasting, voice-recording etc. On the other hand, with our matching algorithm, users can easily hand-pick the research studies that they are interested in. 
