@@ -34,11 +34,11 @@ class SidebarMainNavbar extends React.Component {
               <img
                 id="main-logo"
                 className="d-inline-block align-top mr-1"
-                style={{ maxWidth: "25000px" }}
-                src="https://wesearchbucket.s3-ap-southeast-1.amazonaws.com/logo-refind.png"
-                width="150"
-                height="44"
-                alt="WeSearch"
+                style={{ maxWidth: "24000px" }}
+                src="https://wesearchbucket.s3-ap-southeast-1.amazonaws.com/logo-refind-resized.png"
+                width="136"
+                height="48"
+                alt="ReFind"
               />
             </div>
           </NavbarBrand>
