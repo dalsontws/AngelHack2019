@@ -35,7 +35,7 @@ class SidebarMainNavbar extends React.Component {
                 id="main-logo"
                 className="d-inline-block align-top mr-1"
                 style={{ maxWidth: "25000px" }}
-                src="https://wesearchbucket.s3-ap-southeast-1.amazonaws.com/logo.jpg"
+                src="https://wesearchbucket.s3-ap-southeast-1.amazonaws.com/logo-refind.png"
                 width="150"
                 height="44"
                 alt="WeSearch"
