@@ -26,6 +26,11 @@ export default [
     component: BlogOverview
   },
   {
+    path: "/index",
+    layout: DefaultLayout,
+    component: Tables
+  },
+  {
     path: "/user-profile-lite",
     layout: DefaultLayout,
     component: UserProfileLite
