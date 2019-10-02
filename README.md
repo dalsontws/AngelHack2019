@@ -3,6 +3,8 @@
 ## Powered by:
 ### AWS Amplify, Pinpoint (Analytics), S3
 
+![Dashboard Demo](demo/demo-dashboard.gif)
+
 ## WeSearch
 ### We aim to digitalize Contract Research by offering a multi-sided platform in China. Through our mobile app, research organizations can publish their (paid) research studies like food-tasting, voice-recording etc. On the other hand, with our matching algorithm, users can easily hand-pick the research studies that they are interested in. 
 
@@ -15,7 +17,7 @@
 
 ### Resources:
 Shards Dashboard React
-
+https://github.com/DesignRevision/shards-dashboard-react
 <br />
 
 ### Available Scripts
