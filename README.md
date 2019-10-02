@@ -17,7 +17,7 @@
 
 ### Resources:
 Shards Dashboard React
-
+https://github.com/DesignRevision/shards-dashboard-react
 <br />
 
 ### Available Scripts
