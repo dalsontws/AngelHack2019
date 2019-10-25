@@ -1,4 +1,6 @@
-# AngelHack AWS Hackathon
+# AngelHack Global Hackathon Series 2019 Beijing - AWS Challenge Winners
+
+![WeSearch](public/team.jpg)
 
 ## Powered by:
 ### AWS Amplify, Pinpoint (Analytics), S3
